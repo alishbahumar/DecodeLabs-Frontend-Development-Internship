@@ -1,98 +1,282 @@
-# DecodeLabs-Frontend-Development-Internship
-FoodVerse 🍔
+# 🍔 FoodVerse
 
-FoodVerse is a modern food discovery web app where users can browse recipes/restaurants, search by cuisine, and save their favorites.
+### Modern Food Discovery Web Application
 
+> A modern and responsive food discovery web application that allows users to explore food items, discover recipes and restaurants, search by cuisine, and save their favorite choices.
 
-⚠️ This README is a starter template with common assumptions filled in. Update the sections marked with <!-- update --> to match your actual project details (tech stack, features, screenshots, etc).
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)](https://react.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge\&logo=npm\&logoColor=white)](https://www.npmjs.com/)
 
+---
 
+## 📌 About The Project
 
-Features
+**FoodVerse** is a modern food discovery platform developed as part of the **DecodeLabs Frontend Development Internship**.
 
+The application provides users with an engaging interface for discovering food, browsing food-related content, searching for items, and managing favorites.
 
-🔍 Search and filter food items / recipes / restaurants
-📱 Responsive design (mobile & desktop)
-❤️ Save favorites / wishlist
-🖼️ Image-rich food cards
-⚡ Fast, component-based UI
+The project focuses on creating a **clean, responsive and user-friendly frontend experience** using React and modern web development practices.
 
+---
 
-<!-- update: add/remove features based on your actual app -->
-Tech Stack
+## 🛠️ Tech Stack
 
+### Languages
 
-Framework: React
-Styling: CSS / Tailwind CSS <!-- update if different -->
-State Management: React Hooks / Context API <!-- update if using Redux etc -->
-API: Fetch / Axios for data fetching <!-- update -->
-Package Manager: npm
+| Technology            | Usage                                     |
+| --------------------- | ----------------------------------------- |
+| **JavaScript (ES6+)** | Application logic and interactivity       |
+| **HTML5 / JSX**       | Component structure and page markup       |
+| **CSS3**              | Styling, responsive layouts and UI design |
 
+### Framework & Libraries
 
-Project Structure
+| Technology      | Usage                                |
+| --------------- | ------------------------------------ |
+| **React**       | Component-based frontend development |
+| **React Hooks** | State and component logic            |
+| **npm**         | Package and dependency management    |
 
+### Development Concepts
+
+* Component-based architecture
+* Reusable React components
+* React state management
+* Responsive web design
+* Dynamic rendering
+* Search and filtering
+* Favorites management
+
+---
+
+## ✨ Key Features
+
+### 🔍 Search & Discovery
+
+Users can search and explore food-related content through a simple and intuitive interface.
+
+### 🍽️ Food Exploration
+
+Browse visually appealing food cards containing relevant food information and imagery.
+
+### 🧭 Cuisine Discovery
+
+Explore food based on different cuisine categories and preferences.
+
+### ❤️ Favorites
+
+Users can save their preferred food items to a favorites/wishlist section for easier access.
+
+### 🖼️ Image-Rich Interface
+
+The application uses attractive food imagery to create a visually engaging browsing experience.
+
+### 📱 Responsive Design
+
+FoodVerse is designed to provide a consistent experience across:
+
+* 🖥️ Desktop
+* 💻 Laptop
+* 📱 Tablet
+* 📱 Mobile
+
+### ⚡ Component-Based UI
+
+The interface is organized using reusable React components, making the application easier to maintain and extend.
+
+---
+
+## 🎨 UI & Design
+
+FoodVerse follows a modern food-platform design approach with a focus on:
+
+* Clean layouts
+* Attractive food imagery
+* Responsive cards
+* Clear navigation
+* User-friendly interactions
+* Consistent typography
+* Modern spacing and visual hierarchy
+
+The design aims to provide an experience similar to modern food discovery and ordering platforms.
+
+---
+
+## 📂 Project Structure
+
+```text id="v5qk2p"
 foodverse/
+│
 ├── public/
 │   └── index.html
+│
 ├── src/
-│   ├── assets/          # images, icons, fonts
-│   ├── components/      # reusable UI components
-│   ├── pages/            # page-level components
-│   ├── hooks/            # custom React hooks
-│   ├── services/         # API calls
+│   ├── assets/
+│   │   └── images, icons and other assets
+│   │
+│   ├── components/
+│   │   └── reusable React components
+│   │
+│   ├── pages/
+│   │   └── application pages
+│   │
+│   ├── hooks/
+│   │   └── reusable React hooks
+│   │
+│   ├── services/
+│   │   └── data/API related functionality
+│   │
 │   ├── App.jsx
 │   └── index.jsx
+│
 ├── package.json
 └── README.md
+```
 
-<!-- update: match this to your actual folder structure -->
-Getting Started
+---
 
-Prerequisites
+## 🚀 Getting Started
 
+### Prerequisites
 
-Node.js (v16 or higher)
-npm or yarn
+Make sure you have installed:
 
+* **Node.js**
+* **npm**
 
-Installation
+You can verify the installation using:
 
-bash# Clone the repository
+```bash id="v8x1cf"
+node --version
+npm --version
+```
+
+---
+
+### 📥 Installation
+
+Clone the repository:
+
+```bash id="m6t3az"
 git clone https://github.com/your-username/foodverse.git
+```
 
-# Navigate to the project folder
+Navigate to the project:
+
+```bash id="q8d1pn"
 cd foodverse
+```
 
-# Install dependencies
+Install dependencies:
+
+```bash id="f2k7wx"
 npm install
+```
 
-Running the App
+---
 
-bashnpm start
+## ▶️ Running the Application
 
-The app will run at http://localhost:3000 by default.
+Start the development server:
 
-Building for Production
+```bash id="e1r4kc"
+npm start
+```
 
-bashnpm run build
+The application will be available at the local development URL shown in your terminal.
 
-Environment Variables
+---
 
-Create a .env file in the root directory and add:
+## 🏗️ Production Build
 
-REACT_APP_API_URL=your_api_url_here
-REACT_APP_API_KEY=your_api_key_here
+Create an optimized production build using:
 
-<!-- update: list actual environment variables your app uses -->
-Available Scripts
+```bash id="z6s9rv"
+npm run build
+```
 
-CommandDescriptionnpm startRuns the app in development modenpm run buildBuilds the app for productionnpm testRuns tests
+---
 
-Contributing
+## 🔐 Environment Variables
 
+If your implementation uses an external API, create a `.env` file in the project root and add the required variables.
 
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+Example:
+
+```env id="u3p8nd"
+REACT_APP_API_URL=your_api_url
+REACT_APP_API_KEY=your_api_key
+```
+
+> Only add environment variables here if they are actually used in your project.
+
+---
+
+## 📸 Screenshots
+
+Add your actual project screenshots here before publishing the repository.
+
+```text id="k2x7qa"
+screenshots/
+├── home.png
+├── food-discovery.png
+├── favorites.png
+└── mobile-view.png
+```
+
+---
+
+## 📚 What I Learned
+
+Through this project, I gained practical experience with:
+
+* React development
+* JavaScript ES6+
+* JSX
+* Component-based architecture
+* React Hooks
+* State management
+* Responsive frontend development
+* Search and filtering functionality
+* Reusable UI components
+* Modern UI/UX principles
+* Git and GitHub workflow
+
+---
+
+## 🎓 Internship Information
+
+| Detail           | Information                     |
+| ---------------- | ------------------------------- |
+| **Organization** | DecodeLabs                      |
+| **Internship**   | Frontend Development Internship |
+| **Project**      | FoodVerse                       |
+| **Category**     | Frontend Web Development        |
+| **Developer**    | Alishbah Umar                   |
+
+---
+
+## 👩‍💻 Author
+
+### Alishbah Umar
+
+**Frontend Development Intern**
+
+BS Software Engineering Student
+Web Development & UI/UX Enthusiast
+
+---
+
+## 📄 License
+
+This project was developed for **educational and internship purposes** as part of the DecodeLabs Frontend Development Internship.
+
+---
+
+### 🍔 FoodVerse
+
+**Discover. Explore. Save Your Favorites.**
+
+Built with **React + JavaScript + CSS3** 🚀
